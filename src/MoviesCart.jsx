@@ -1,6 +1,10 @@
+import './style/cart.css'
 export const MoviesCart = (props) => {
-    console.log(props)
+    console.log(props.data.name)
     return(
-        <div></div>
+        <div className="cartCss">
+            <img src={props.data.image} alt="" />
+            <h2>{props.data.name}</h2>
+        </div>
     )
 }

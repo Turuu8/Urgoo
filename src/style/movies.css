@@ -2,8 +2,13 @@
     margin-top: 30px;
     width: 1200px;
     height: 800px;
-    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
 }
 h3{
     text-align: center;
+}
+.cartPart{
+    display: flex;
+    justify-content: space-between;
 }
