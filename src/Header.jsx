@@ -1,5 +1,6 @@
 import './style/header.css'
-export const Header = () => {
+import { Link } from 'react-router-dom'
+const Header = () => {
     return(
         <div className="header">
             <a href=""  className='urguuLogo'></a>
@@ -10,3 +11,4 @@ export const Header = () => {
         </div>
     )
 }
+export default Header;

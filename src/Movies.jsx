@@ -5,14 +5,16 @@ export const Movies = () => {
     return(
         <div className="movies">
             <h3>Кино Жагсаалт</h3>
-            <a href="http://localhost:3000/TopGun" className='cartPart'> 
-            {
-                datas.map((e , i) => {
-        
-                    return(<MoviesCart data={e} key={i}/>)
-                })
-            }
-            </a>
+                <span className='cartPart'> 
+                {
+                    datas.map((e , i) => {
+                        
+                        return(
+                            <MoviesCart data={e} key={i}/>
+                        )
+                    })
+                }
+                </span>
         </div>
     )
 }
